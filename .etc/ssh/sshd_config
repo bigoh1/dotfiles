@@ -1,0 +1,11 @@
+Protocol 2
+PermitRootLogin no
+PubkeyAuthentication yes
+PasswordAuthentication no
+ClientAliveInterval 1800
+MaxAuthTries 5
+UsePAM no
+X11Forwarding no
+AllowGroups ssh-users
+ChallengeResponseAuthentication no
+PrintMotd no
