@@ -18,7 +18,7 @@ echo '.dotfiles' >> $HOME/.gitignore
 
 git clone --bare https://github.com/multifrench/dotfiles.git $HOME/.dotfiles
 
-declare -a requiredSoftware=("zsh" "nvim" "exa")
+declare -a requiredSoftware=("fish" "nvim" "exa")
 for i in "${requiredSoftware[@]}"; do
     result=$(isInstalled "$i")
     if [ $result -eq 0 ]; then

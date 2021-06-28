@@ -5,11 +5,7 @@ alias ls="exa"
 alias l="exa -F"
 alias ll="exa -alF"
 alias gh="history | grep"
-alias count="find . -type f | wc -l"
 alias ve="python3 -m virtualenv ./venv"
 alias va="source ./venv/bin/activate"
 alias cpv="rsync -ah --info=progress2"
-alias pg="cd `mktemp -d`"
-
-# OhMYZSH
-alias reloadomz="source $HOME/.zshrc"
+alias pg="cd (mktemp -d)"
