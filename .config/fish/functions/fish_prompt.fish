@@ -1,0 +1,1 @@
+/home/seem-star7/.local/share/omf/themes/neolambda/fish_prompt.fish
