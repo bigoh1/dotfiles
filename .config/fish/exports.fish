@@ -9,4 +9,4 @@ set MANPAGER "less -X"
 
 # Avoid issues with `gpg` as installed via Homebrew.
 # https://stackoverflow.com/a/42265848/96656
-set GPG_TTY (tty)
+set -gx GPG_TTY (tty)
