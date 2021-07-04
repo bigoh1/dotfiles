@@ -11,8 +11,12 @@ Plug 'ycm-core/YouCompleteMe' " Do not forget to pip3 install neovim and compile
 
 " File navigation
 Plug 'preservim/nerdtree'
-Plug 'junegunn/fzf'
+" Plug 'junegunn/fzf'
 Plug 'vim-scripts/a.vim'
+" > telescope & deps
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
 
 " Visual
 Plug 'kennykaye/vim-relativity'
