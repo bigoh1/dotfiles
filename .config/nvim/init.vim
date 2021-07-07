@@ -4,16 +4,6 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 " Airline theme
 source $HOME/.config/nvim/themes/airline.vim
 
-" NERDTree bindings
-nnoremap <leader>n :NERDTreeFocus<CR>
-nnoremap <C-n> :NERDTree<CR>
-nnoremap <C-t> :NERDTreeToggle<CR>
-nnoremap <C-f> :NERDTreeFind<CR>
-
-" Start NERDTree when Vim is started without file arguments.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
-
 " Syntatic config
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -51,3 +41,16 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " rust-lang/rust.vim
 syntax enable
 filetype plugin indent on
+
+" Disable syntatic for rust files
+let g:syntastic_mode_map = {
+    \ "mode": "active",
+    \ "passive_filetypes": ["rust"] }
+
+" ctags
+" https://stackoverflow.com/a/563992/15484665
+map <C-\> :tab split<CR>:exec("tag ".expand("<cword>"))<CR>
+map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
+
+" Fix relative numbers
+set relativenumber number

@@ -12,13 +12,14 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'rust-lang/rust.vim'
 
 " File navigation
-Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 " Plug 'junegunn/fzf'
 Plug 'vim-scripts/a.vim'
 " > telescope & deps
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
+Plug 'ludovicchabant/vim-gutentags' "Also install uuniversal-ctags/ctags
 
 " Visual
 Plug 'kennykaye/vim-relativity'
