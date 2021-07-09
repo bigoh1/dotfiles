@@ -54,3 +54,7 @@ map <A-]> :vsp <CR>:exec("tag ".expand("<cword>"))<CR>
 
 " Fix relative numbers
 set relativenumber number
+
+" Automatically close YCM docs
+" https://stackoverflow.com/a/42823976/15484665
+let g:ycm_autoclose_preview_window_after_insertion = 1
