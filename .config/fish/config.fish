@@ -7,3 +7,7 @@ for file in $HOME/.config/fish/{aliases,path,exports,functions,extra}.fish
     end
 end
 set -e file
+
+# Enable vi mode
+# https://stackoverflow.com/a/28445450/15484665
+fish_vi_key_bindings
