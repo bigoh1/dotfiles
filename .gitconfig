@@ -1,0 +1,11 @@
+[init]
+	defaultBranch = main
+[user]
+	name = multifrench
+	email = multifrench@protonmail.com
+	signingkey = 0xE6E105E7F64F422F
+[commit]
+	gpgsign = true
+[core]
+	excludesfile = ~/.gitignore_global
+    editor = nvim
