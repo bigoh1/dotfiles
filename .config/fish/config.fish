@@ -11,3 +11,6 @@ set -e file
 # Enable vi mode
 # https://stackoverflow.com/a/28445450/15484665
 fish_vi_key_bindings
+
+# Enable jump
+jump shell fish | source
