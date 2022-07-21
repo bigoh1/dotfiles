@@ -1,11 +1,11 @@
 [init]
 	defaultBranch = main
 [user]
-	name = multifrench
-	email = multifrench@protonmail.com
+	name = Yehor Varbanskyi
+	email = varbanskyi.dev@proton.me
 	signingkey = 0xE6E105E7F64F422F
 [commit]
-	gpgsign = true
+	gpgsign = false
 [core]
 	excludesfile = ~/.gitignore_global
     editor = nvim
