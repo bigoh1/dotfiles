@@ -2,8 +2,7 @@
 alias config='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
 alias ls="exa"
-alias l="exa -F"
-alias ll="exa -aglF"
+alias l="exa -ghlaF --git"
 alias gh="history | grep"
 alias ve="python3 -m virtualenv ./venv"
 alias va="source ./venv/bin/activate.fish"
