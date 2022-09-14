@@ -7,7 +7,7 @@ Plug 'vim-syntastic/syntastic'
 " Auto completion
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'ycm-core/YouCompleteMe' " Do not forget to pip3 install neovim and compile the ycm (see install section in the repo)
+"Plug 'ycm-core/YouCompleteMe' " Do not forget to pip3 install neovim and compile the ycm (see install section in the repo)
 Plug 'jiangmiao/auto-pairs'
 Plug 'rust-lang/rust.vim'
 
